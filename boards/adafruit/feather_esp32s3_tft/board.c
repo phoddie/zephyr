@@ -28,5 +28,5 @@ void board_late_init_hook(void)
 	if (gpio_is_ready_dt(&i2c_reg)) {
 		gpio_pin_configure_dt(&i2c_reg, GPIO_OUTPUT_ACTIVE);
 	}
-endif
+#endif
 }
